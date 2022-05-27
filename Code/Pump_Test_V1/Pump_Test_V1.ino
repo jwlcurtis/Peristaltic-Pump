@@ -17,7 +17,7 @@ Stepper myStepper = Stepper(stepsPerRevolution, 8, 10, 9, 11);
 
 void setup() {
   // Set the speed to 5 rpm:
-  myStepper.setSpeed(7);
+  myStepper.setSpeed(11);
   
   // Begin Serial communication at a baud rate of 9600:
   Serial.begin(9600);
